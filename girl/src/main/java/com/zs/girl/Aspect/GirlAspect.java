@@ -52,7 +52,6 @@ public class GirlAspect {
     public void doAfter(){
         logger.info("====================Logger End==================");
     }
-
 //    @AfterReturning(returning = "object",pointcut = "log()")
 //    public void doAfterReturning(Object object){
 //        if ( null==object ){
